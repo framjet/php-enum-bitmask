@@ -1,0 +1,14 @@
+{
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "logs": {
+        "text": "php://stderr",
+        "github": true,
+        "badge": {
+            "branch": "main"
+        }
+    }
+}

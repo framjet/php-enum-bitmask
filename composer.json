@@ -1,0 +1,51 @@
+{
+  "name":              "framjet/enum-bitmask",
+  "description":       "A small library that provides functionality to PHP 8.1 enums to act as BitMask flags",
+  "type":              "library",
+  "license":           "MIT",
+  "homepage":          "https://github.com/framjet/php-enum-bitmask",
+  "keywords":          [
+    "bitmask",
+    "bit",
+    "mask",
+    "flags",
+    "flag",
+    "enums",
+    "enum",
+    "framjet"
+  ],
+  "authors": [
+    {
+      "name":     "Aurimas Niekis",
+      "email":    "aurimas@niekis.lt",
+      "homepage": "https://aurimas.niekis.lt/"
+    }
+  ],
+  "require": {
+    "php": "~8.1.0"
+  },
+  "require-dev": {
+    "framjet/coding-standard":                "^1.0",
+    "phpunit/phpunit":                        "^9.5.10",
+    "psalm/plugin-phpunit":                   "^0.16.1",
+    "roave/infection-static-analysis-plugin": "^1.12",
+    "squizlabs/php_codesniffer":              "^3.6.2",
+    "vimeo/psalm":                            "^4.15.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FramJet\\Packages\\EnumBitmask\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FramJet\\Packages\\EnumBitmaskTest\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
